@@ -49,6 +49,7 @@ body {
     font-family: poppins, sans-serif;
     font-size: 0.88rem;
     background: var(--color-background);
+    color: var(--color-dark);
     user-select: none; /* ability to select text */
     overflow-x: hidden; /* overflow of text from the element */
 }
@@ -157,7 +158,6 @@ aside .close {
 /* --- SIDEBAR --- */
 
 aside .sidebar {
-    background: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
@@ -224,3 +224,6 @@ aside .sidebar .message-count {
     font-size: 11px;
     border-radius: var(--border-radius-1);
 }
+
+/* --- MAIN --- */
+
